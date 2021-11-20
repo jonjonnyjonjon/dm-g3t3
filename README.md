@@ -1,3 +1,28 @@
+# Instructions to run the notebooks
+You will need Anaconda and Jupyter Notebook installed on your laptop. Using the Jupyter Notebook extension in Visual Studio Code is also possible.
+
+To run each notebook, `Kernel > Restart & Run All`.
+
+#### File Directory outline
+1. 01 EDA and data preprocessing
+2. 02 Base Models
+3. 03 Hyperparameter Tuning
+4. 04 Compilation of results
+5. dataset
+
+##### 01 Exploratory Data Analysis (EDA) and data preprocessing
+- eda.ipynb ⟶ various exploration done on the dataset
+- data-preprocesing.ipynb ⟶ the dataset is preprocessed here and exported into train.csv and test.csv for training models in later parts
+
+##### 02 Base Models
+For each notebook in this folder, 3 variations of models were trained on the train.csv with cross validation in place. The results can also be viewed in these notebooks.
+
+##### 03 Hyperparameter Tuning
+All notebooks in this folder were ran on Kaggle due to the lack of computational resources on local laptops. However, the codes were manipulated in hopes to allow for local execution.
+
+##### 04 Compilation of results
+The best parameters of each selected model is consolidated here and the test set (test.csv) is used to evaluate the model's performance. The feature importances graph is also plotted here for the chosen model.
+
 # Libraries and resources used
 
 #### Overall
